@@ -27,7 +27,7 @@ body {
     margin-top: 30px;
     font-size: 21px;
     font-weight: 200 !important;
-    font-family: "Sniglet",sans-serif;
+    font-family: 'poppins', sans-serif;
 }
 o{
     color: #ff6a32;
@@ -118,10 +118,11 @@ html {
 .container-main{
 
   width: 100%;
+  position: relative;
 }
 .container{
 
-
+    position: relative;
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
@@ -168,6 +169,21 @@ li{
     position: relative;
     top: 50px;
 }
+.container3{
+    display: flex;
+    padding:0px 20px 0px 20px;
+    justify-content: space-between;
+
+}
+.container4{
+    display: flex;
+    background-color: #E1EDED;
+    padding:30px 80px 50px 80px;
+    justify-content: end;
+    margin-top: 10%;
+  position: relative;
+    
+}
 .container2{
     display: flex;
     background-color: #E1EDED;
@@ -198,4 +214,147 @@ li{
     display: block !important;
 
 
+}
+.team{
+    width: 60%;
+    position: relative;
+    right: 2%;
+    top:20%;
+    margin-bottom: 60px;
+}
+.our-team{
+    display: block;
+    width: 25%;
+    position: relative;
+    left: 4%;
+    top:30%;
+}
+.team{
+    display: flex;
+    justify-content: space-between;
+
+}
+.teamp{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    max-width: 200px;
+}
+.mobile{
+    width: 40%;
+    position: absolute;
+    bottom: -3.5%;
+    left: 12%;
+    display: flex;
+}
+.our-social{
+    text-align: right;
+    position: relative;
+    width: 40%;
+}
+.container5{
+
+   background-color: #F69068;
+   display: flex;
+   justify-content: end;
+
+}
+.mobil{
+    
+    width: 327px;
+    height: 476px;
+    object-fit: contain;
+}
+.etl {
+    position: absolute;
+    left: 30%;
+    top: 76%;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.muganbo{
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 40%;
+}
+.reveiw{
+    width: 40%;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+.rimage{
+
+    max-width: 250px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.container-block{
+    text-align: center;
+}
+.container-block1{
+    background-color: #E1EDED;
+    padding: 20px;
+
+}
+.las{
+    font-size: 150px;
+    font-weight: 100; 
+    font-family: "Sniglet",sans-serif;
+    background-color: white;
+    color: #ff6a32;
+    border-radius: 100px;
+}
+.container-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+fniaw{
+    margin-bottom: 17px;
+}
+.btn{
+    position: unset;
+}
+.last{
+    margin: 3% !important;
+}
+.container6{
+    display: flex;
+    background-color: #ff6a32;
+    padding: 2%;
+    justify-content: space-around;
+}
+.white{
+    color: white !important;
+    
+}
+.white-text{
+    font-size: 22px;
+    color: white !important;
+}
+
+.col-flex{
+    display: flex;
+}
+.call{
+    max-width: 80px;
+}
+
+.footer{
+    display: flex;
+    background-color: #E1EDED;
+    padding:  3%;
+    justify-content: space-around;
+}
+a:hover{
+    color: #ff6a32;
+}
+.footer-colmnu-flex{
+    display: flex;
+    align-items: center;
 }
